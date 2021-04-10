@@ -42,6 +42,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .list {
   list-style: none;
 }
