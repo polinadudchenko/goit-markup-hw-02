@@ -37,8 +37,8 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.link:not(.nohover):hover,
+.link:not(.nohover):focus {
   color: var(--accent-color);
 }
 
@@ -127,6 +127,7 @@ body {
 
 .values-point {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -138,16 +139,18 @@ body {
 
 .team-item {
   text-align: center;
-  font-size: 16px;
-  line-height: 1.19;
 }
 
 .team-item-name {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team-item-position {
   color: var(--alt-text-color);
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .portfolio-item-name {
